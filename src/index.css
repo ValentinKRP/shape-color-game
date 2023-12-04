@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.green-element {
+  width: 100px;
+  height: 150px;
+  background-color: green;
+}
+
+.red-element {
+  width: 100px;
+  height: 150px;
+  background-color: red;
+}
+
+.shapes-container {
+  display: grid;
+      grid-template-columns: repeat(5, 1fr); 
+      gap: 20px; 
+      padding: 100px;
+}
+
